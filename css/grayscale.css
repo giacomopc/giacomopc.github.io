@@ -235,9 +235,10 @@ a:focus {
 }
 .download-section {
   width: 100%;
+  background-size: 100% 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/gradient.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -254,7 +255,8 @@ a:focus {
     padding-top: 250px;
   }
   .download-section {
-    padding: 100px 0;
+    background-size: 100% 100%;
+    padding: 150px 0;
   }
   #map {
     height: 400px;
