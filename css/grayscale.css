@@ -5,8 +5,18 @@
  */
 @font-face
 {
-  font-family: AvenirNext;
+  font-family: AvenirBold;
   src: url(fonts/AvenirNext-Bold.ttf); 
+}
+@font-face
+{
+  font-family: AvenirRegular;
+  src: url(fonts/AvenirNext-Regular.ttf); 
+}
+@font-face
+{
+  font-family: AvenirMedium;
+  src: url(fonts/AvenirNext-Medium.ttf); 
 }
 body {
   width: 100%;
@@ -27,13 +37,14 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: 'AvenirNext', sans-serif;
+  font-family: 'AvenirBold', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
 p {
   margin: 0 0 25px;
+  font-family: 'AvenirRegular', sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }
