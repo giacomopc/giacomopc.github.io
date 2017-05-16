@@ -5,8 +5,18 @@
  */
 @font-face
 {
-  font-family: AvenirNext;
+  font-family: AvenirBold;
   src: url(fonts/AvenirNext-Bold.ttf); 
+}
+@font-face
+{
+  font-family: AvenirRegular;
+  src: url(fonts/AvenirNext-Regular.ttf); 
+}
+@font-face
+{
+  font-family: AvenirMedium;
+  src: url(fonts/AvenirNext-Medium.ttf); 
 }
 body {
   width: 100%;
@@ -27,12 +37,14 @@ h5,
 h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
-  font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'AvenirBold', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
+
 p {
   margin: 0 0 25px;
+  font-family: 'AvenirRegular', sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -62,10 +74,10 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #e2e2e2;
+  background-color: black;
 }
 .navbar-custom .navbar-toggle {
-  color: #404040;
+  color: white;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
@@ -80,7 +92,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: #555555;
+  color: white;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -118,7 +130,7 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: #e2e2e2;
+    background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -144,6 +156,7 @@ a:focus {
   top: 0;
   left: 0;
   background: url(../img/imagen_pgx.png) no-repeat bottom center scroll;
+
 }
 
 .intro .intro-body {
@@ -240,10 +253,9 @@ a:focus {
 }
 .download-section {
   width: 100%;
-  background-size: 100% 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/gradient.jpg) no-repeat center center scroll;
+  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -259,18 +271,8 @@ a:focus {
     padding-top: 250px;
   }
   .download-section {
-    background-size: 100% 100%;
     padding: 100px 0;
   }
-
-  .download-section .containerX{
-    height: 475px;
-    width: 432px;
-    display: inline-block;
-    border: 2px solid #A0A0A0;
-    background-color:rgba(0,0,0,0.64);
-  }
-
   #map {
     height: 400px;
   }
