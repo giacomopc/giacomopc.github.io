@@ -260,8 +260,17 @@ a:focus {
   }
   .download-section {
     background-size: 100% 100%;
-    padding: 150px 0;
+    padding: 100px 0;
   }
+
+  .download-section .containerX{
+    height: 475px;
+    width: 432px;
+    display: inline-block;
+    border: 2px solid #A0A0A0;
+    background-color:rgba(0,0,0,0.64);
+  }
+
   #map {
     height: 400px;
   }
