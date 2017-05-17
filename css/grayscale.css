@@ -80,7 +80,7 @@ p {
   p {
     margin: 0 0 35px;
   font-family: "AvenirRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
   }
 }
@@ -319,9 +319,9 @@ a:focus {
 .organiza .justify-text
 {
     color: #555;
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 
@@ -348,9 +348,9 @@ a:focus {
 
 .justify-text
 {
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
-    line-height: 2;
+    line-height: 1.6;
 }
 
 #map {
@@ -367,8 +367,8 @@ a:focus {
   }
 
   .download-section .containerX{
-    height: 475px;
-    width: 432px;
+    height: 400px;
+    width: 400px;
     display: inline-block;
     border: 2px solid #A0A0A0;
     background-color:rgba(0,0,0,0.64);
