@@ -162,7 +162,7 @@ a:focus {
     background: #e2e2e2;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
-}
+
 .intro {
   display: table;
   width: 100%;
@@ -178,6 +178,7 @@ a:focus {
   -o-background-size: cover;
 }
 
+
 .intro .intro-image {
   width: 100%;
   height: 900px;
@@ -186,6 +187,36 @@ a:focus {
   left: 0;
   background: url(../img/imagen_pgx.png) no-repeat bottom center scroll;
 }
+}
+
+@media (max-width: 768px) {
+
+.intro {
+  display: table;
+  width: 100%;
+  height: 384px;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  /*background: url(../img/intro-bg2.png) no-repeat bottom center scroll;*/
+  background-color: #eeeeee;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.intro .intro-image {
+  width: 100%;
+  height: 384;
+  position:absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/imagen_pgx.png) no-repeat bottom center scroll;
+}
+}
+
 
 .intro .intro-body {
   display: table-cell;
