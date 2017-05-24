@@ -438,6 +438,7 @@ a:focus {
   border: 1px solid white;
   color: white;
   background-color: transparent;
+  white-space: initial;
   width:90%;
 }
 .btn-default:hover,
