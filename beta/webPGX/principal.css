@@ -1,0 +1,28 @@
+/*!
+ * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+@font-face
+{
+  font-family: AvenirBold;
+  src: url(fonts/AvenirNext-Bold.ttf); 
+}
+@font-face
+{
+  font-family: AvenirRegular;
+  src: url(fonts/AvenirNext-Regular.ttf); 
+}
+@font-face
+{
+  font-family: AvenirMedium;
+  src: url(fonts/AvenirNext-Medium.ttf); 
+}
+
+
+a.links
+{
+	text-decoration: uppercase;
+	font-family: AvenirBold;
+	color: #eee;
+}
