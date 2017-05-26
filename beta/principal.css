@@ -26,3 +26,18 @@ a.links
 	font-family: AvenirBold;
 	color: #eee;
 }
+
+.tituloCirculos
+{
+	font-family: AvenirBold;
+}
+
+.subtituloCirculos
+{
+	font-family: AvenirMedium;
+}
+
+.descripcionCirculo
+{
+	font-family: AvenirRegular;	
+}
